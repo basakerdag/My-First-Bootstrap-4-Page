@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      
+      h1 {
+        font-style: italic;
+        background-color: black;
+        color: purple;
+      }
+      h2{
+        font-style:italic;
+      }
+      p {
+        font-style:italic;
+      }
+      a {
+        font-style: italic;
+      }
+      li{
+        font-style:italic;
+      }
+      h4{
+        font-style:italic;
+      
+      }
+      #altbaslik{
+        background-color:purple;
+        color:black;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron text-center" style="margin-bottom: 0">
+      <h1>Rhododendron ponticum</h1>
+      <p id="altbaslik">*mor çiçekli orman gülü*</p>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="https://gezenadam.com/biota/images/160X120/xx308_0.jpg"
+          alt="logo"
+          style="width: 70px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Görseller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Satın Almak İçin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Daha Fazla Bilgi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container" style="margin-top: 50px">
+      <div class="row">
+        <div class="col-sm-7">
+          <h2>Özellikleri</h2>
+          <img src="https://pbs.twimg.com/media/ETLLy78XsAAdRQK.jpg" height="350px">
+          <p>5 m boyunda nadiren 8 m'ye çıkan sık dallı çalımsı bir bitkidir. Geniş mızrak biçimindeki yaprakları 6–18 cm uzunluk ve 2–5 cm çapındadır, kışın dökülmez. 3,5–5 cm çapındaki çiçekler mor-menekşe renginde çoğu kez küçük sarımsı-yeşil benekli ya da çizgilidir. İçerisinde çok sayıda tohum bulunduran meyve kuru kapsül yapısındadır.</p>
+          <h2>Nerelerde Bulunur?</h2>
+          <img src="https://cdn1.ntv.com.tr/gorsel/Nc0zyyUw1E6Qj1Js-9fwXA.jpg?width=1000&mode=crop&scale=both" height="300px">
+          <p>Rhododendron ponticum (Mor çiçekli ormangülü, Komar), Ericaceae (fundagiller) familyasından kuzey yarımkürenin nemli dağlık bölgelerinde görülen bir ormangülü türü. Anavatanı Güney Avrupa ve Güneybatı Asya'dır.</p>
+          <h2>Yetiştirme Koşulları</h2>
+          <img src="https://www.fidanistanbul.com/i/mor-orman-gl-rhododendron-marcel-menard,-20-40-cm,-thal,-saksda_300x400_7249160.jpg" height="350px">
+          <p>
+            Orman gülü, saksıda yetişmesi zor bir bitkidir. Çünkü iri bir gövde yapısına sahiptir ve yaprakları da oldukça geniştir. Dolayısıyla saksıya adapte edilmesi zordur. Bu yüzden bahçelerde ve parklarda yetiştirilmesi daha uygun olacaktır.Orman gülü, nitelikli beslenmeye ihtiyaç duyan bir bitkidir. Diğer yandan kimyasal gübreler bitkinin yapısına zarar verebilir. Bu yüzden, ekmeden önce mutlaka organik gübreleme yapılmalı ve gübre takviyesi sürekli tekrarlanmalıdır. 
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <br><br><br>
+          <h4>Türkiye'deki Ormangülü Türleri</h4>
+          <ul class="list-group">
+
+            <li class="list-group-item list-group-item-action">Sarı çiçekli ormangülü</li>
+            <li class="list-group-item list-group-item-action"> Mor çiçekli ormangülü</li> 
+            <li class="list-group-item list-group-item-action">Kafkas ormangülü</li>
+            <li class="list-group-item list-group-item-action ">Pembe çiçekli ormangülü </li>
+            <li class="list-group-item list-group-item-action">Beyaz çiçekli ormangülü </li>
+
+
+          </ul>
+          <br><br><br><br><br><br><br><br><br><br>
+          <p>İlgili diğer sayfalar</p>
+           <ul class="nav nav-pills  flex-column ">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">1.Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">2.Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">3.Sayfa</a>
+        </li>
+       
+      </ul>
+          
+          
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <h4>Melez Ormangülü Taksonları</h4>
+          <ul class=""list-group>
+            <li class="list-group-item list-group-item-action ">Rhododendron x sochadzeae (R. ponticum x R. caucasicum melezi) Artvin</li>
+            <li class="list-group-item list-group-item-action">Rhododendron x rosifaciens (R. smirnovii x R. ungernii melezi) Tiryal Dağı</li>
+            <li class="list-group-item list-group-item-action">Rhododendron x filidactylis (R. ponticum x R. ungernii melezi) Tiryal Dağı</li>
+
+          </ul>
+          
+
+        </div>
+      </div>
+      
+    </div>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p> <strong>İletişim:basakkerdag42@gmail.com </strong></p>
+      <br>
+      <p> <strong> Kurucu &copy;Başak Erdağ </strong> </p>
+    </div>
+    
+   
+
+   
+  </body>
+</html>
